@@ -1,0 +1,36 @@
+body
+{
+    background-image: url(music-song-famous-texas-songwriter-lawyer-sued-texas-lawyer-6.jpg);
+    background-size: cover;
+}
+h3
+{
+    background-color: blueviolet;
+    font-family: cursive;
+    font-size: 40;
+}
+.note
+{
+    font-family:monospace;
+    font-size: 20;
+}
+#name
+{
+   font-size: 20;
+}
+
+canvas
+{
+    background-color: #000000;
+    border: 5px solid white;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px red orange;
+    animation-name: example;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes example {
+    from {box-shadow: 1px 1px 38px red;}
+    to {box-shadow: 1px 1px 38px orange;}
+}
